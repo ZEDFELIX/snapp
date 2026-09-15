@@ -14,7 +14,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <h1 class="logo">SNAP NET</h1>
+            <h1 class="logo">SnapNet</h1>
             <nav class="nav-menu" aria-label="Main navigation">
                 <a href="index.html">Home</a>
                 <a href="how-it-works.html">How It Works</a>
@@ -23,24 +23,30 @@
         </div>
     </header>
 
-    <form class="form" aria-label="Create account form">
-        <p id="heading">Create Account</p>
-        <div class="field">
-            <input id="signup-username" autocomplete="username" placeholder="Username" class="input-field" type="text" required>
-        </div>
-        <div class="field">
-            <input id="signup-email" autocomplete="email" placeholder="Email" class="input-field" type="email" required>
-        </div>
-        <div class="field">
-            <input id="signup-password" autocomplete="new-password" placeholder="Password" class="input-field" type="password" required>
-        </div>
-        <div class="field">
-            <input id="signup-confirm-password" autocomplete="new-password" placeholder="Confirm Password" class="input-field" type="password" required>
-        </div>
-        <div class="btn">
-            <button type="submit" class="button1">Sign Up</button>
-        </div>
-    </form>
+    <main>
+        <form class="form" aria-label="Create account form">
+            <p id="heading">Create Account</p>
+            <div class="field">
+                <label class="visually-hidden" for="signup-username">Username</label>
+                <input id="signup-username" autocomplete="username" placeholder="Username" class="input-field" type="text" required>
+            </div>
+            <div class="field">
+                <label class="visually-hidden" for="signup-email">Email</label>
+                <input id="signup-email" autocomplete="email" placeholder="Email" class="input-field" type="email" required>
+            </div>
+            <div class="field">
+                <label class="visually-hidden" for="signup-password">Password</label>
+                <input id="signup-password" autocomplete="new-password" placeholder="Password" class="input-field" type="password" required>
+            </div>
+            <div class="field">
+                <label class="visually-hidden" for="signup-confirm-password">Confirm Password</label>
+                <input id="signup-confirm-password" autocomplete="new-password" placeholder="Confirm Password" class="input-field" type="password" required>
+            </div>
+            <div class="btn">
+                <button type="submit" class="button1">Sign Up</button>
+            </div>
+        </form>
+    </main>
 
     <script src="script.js"></script>
 </body>
